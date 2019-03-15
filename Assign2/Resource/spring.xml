@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+    "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<!-- <bean id="question" class="Question"> -->
+<!-- <property name="questionId" value="1"/> -->
+<!-- <property name="question" value="who are you ? "/> -->
+<!-- <property name="answer" value="kavya"/> -->
+<!-- </bean> -->
+<!-- <bean id="question1" class="Question"> -->
+<!-- <property name="questionId" value="2"/> -->
+<!-- <property name="question" value="how are you ? "/> -->
+<!-- <property name="answer" value="fine"/> -->
+<!-- </bean> -->
+<!-- <bean id="demo" class="ListDemo"> -->
+<!-- <property name="answers"> -->
+<!-- <set> -->
+<!-- <ref bean="question"></ref> -->
+<!-- <ref bean="question1"></ref> -->
+<!-- </set>  -->
+<!-- </property> -->
+<!-- </bean> -->
+<bean id="q" class="MapAnswers">  
+<constructor-arg value="11"></constructor-arg>  
+
+<constructor-arg>  
+<map>  
+<entry key="what is java?" value="Programming language"></entry>  
+<entry key="what is spring?" value="spring is spring"></entry>  
+<entry key="what is jsp?" value="Junior Senior Program"></entry>  
+</map>  
+</constructor-arg>  
+</bean>  
+</beans>
